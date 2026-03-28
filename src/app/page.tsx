@@ -1,65 +1,71 @@
-import Image from "next/image";
+import Link from 'next/link';
 
-export default function Home() {
+const features = [
+  {
+    href: '/teoria',
+    title: 'Teoria',
+    description: 'Estudia las reglas de tráfico suizas por módulos',
+    icon: 'M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253',
+    color: 'bg-blue-50 text-blue-600',
+  },
+  {
+    href: '/fichas',
+    title: 'Fichas de Estudio',
+    description: 'Tarjetas de memoria para señales y reglas',
+    icon: 'M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10',
+    color: 'bg-amber-50 text-amber-600',
+  },
+  {
+    href: '/quiz',
+    title: 'Quiz de Práctica',
+    description: 'Preguntas por tema con retroalimentación inmediata',
+    icon: 'M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z',
+    color: 'bg-green-50 text-green-600',
+  },
+  {
+    href: '/examen',
+    title: 'Simulacro de Examen',
+    description: '50 preguntas, 60 minutos, máx. 15 puntos de error',
+    icon: 'M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z',
+    color: 'bg-red-50 text-red-600',
+  },
+];
+
+export default function HomePage() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+    <div className="p-4">
+      <div className="mb-8 pt-4">
+        <h1 className="text-2xl font-bold text-foreground">SwissDrive</h1>
+        <p className="text-muted mt-1">Examen teórico categoría B - Suiza</p>
+      </div>
+
+      <div className="space-y-3">
+        {features.map(f => (
+          <Link
+            key={f.href}
+            href={f.href}
+            className="flex items-start gap-4 p-4 rounded-xl border border-border hover:bg-card-hover transition-colors"
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
+            <div className={`p-3 rounded-lg ${f.color}`}>
+              <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                <path strokeLinecap="round" strokeLinejoin="round" d={f.icon} />
+              </svg>
+            </div>
+            <div>
+              <h2 className="font-semibold text-foreground">{f.title}</h2>
+              <p className="text-sm text-muted mt-0.5">{f.description}</p>
+            </div>
+          </Link>
+        ))}
+      </div>
+
+      <div className="mt-8 p-4 rounded-xl bg-primary-light border border-red-200">
+        <p className="text-sm text-red-800">
+          <strong>Consejo:</strong> El examen oficial ASA tiene 50 preguntas en 60 minutos.
+          Se permiten máximo 15 puntos de error. Enfócate en las reglas de prioridad
+          (<em>Rechtsvortritt</em>) y percepción de peligros.
+        </p>
+      </div>
     </div>
   );
 }
