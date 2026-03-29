@@ -1,7 +1,6 @@
 'use client';
 
 import { useSearchParams } from 'next/navigation';
-import Image from 'next/image';
 import Link from 'next/link';
 import { useState, useMemo, Suspense } from 'react';
 import { allQuestions } from '@/data/questions';
@@ -130,12 +129,10 @@ function QuizContent() {
       <div className="mb-4">
         {question.imageUrl && (
           <div className="flex justify-center mb-3">
-            <Image
+            <img
               src={question.imageUrl}
               alt={question.text}
-              width={160}
-              height={160}
-              className="object-contain rounded-lg"
+              className="w-40 h-40 object-contain rounded-lg"
             />
           </div>
         )}

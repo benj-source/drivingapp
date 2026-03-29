@@ -1,7 +1,6 @@
 'use client';
 
 import { useParams } from 'next/navigation';
-import Image from 'next/image';
 import Link from 'next/link';
 import { useState, useCallback } from 'react';
 import { allDecks } from '@/data/flashcards';
@@ -90,12 +89,10 @@ export default function FlashcardSessionPage() {
             </span>
             {card.front.imageUrl && (
               <div className="mb-4 flex justify-center">
-                <Image
+                <img
                   src={card.front.imageUrl}
                   alt={card.front.text}
-                  width={160}
-                  height={160}
-                  className="object-contain rounded-lg"
+                  className="w-40 h-40 object-contain rounded-lg"
                 />
               </div>
             )}

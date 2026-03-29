@@ -2,7 +2,6 @@
 
 import { useState, useEffect, useCallback, Suspense } from 'react';
 import { useRouter } from 'next/navigation';
-import Image from 'next/image';
 import { generateExam } from '@/data/exams';
 import { useTimer } from '@/hooks/useTimer';
 import { useProgress } from '@/hooks/useProgress';
@@ -181,12 +180,10 @@ function ExamContent() {
 
         {question.imageUrl && (
           <div className="flex justify-center mb-3">
-            <Image
+            <img
               src={question.imageUrl}
               alt={question.text}
-              width={160}
-              height={160}
-              className="object-contain rounded-lg"
+              className="w-40 h-40 object-contain rounded-lg"
             />
           </div>
         )}
