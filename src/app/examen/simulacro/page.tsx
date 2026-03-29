@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo, useCallback, Suspense } from 'react';
+import { useState, useEffect, useCallback, Suspense } from 'react';
 import { useRouter } from 'next/navigation';
 import Image from 'next/image';
 import { generateExam } from '@/data/exams';
@@ -13,7 +13,7 @@ function ExamContent() {
   const router = useRouter();
   const { addExamResult } = useProgress();
 
-  const questions = useMemo(() => generateExam(), []);
+  const [questions, setQuestions] = useState<Question[]>([]);
   const [answers, setAnswers] = useState<Record<string, string>>({});
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showNav, setShowNav] = useState(false);
@@ -44,14 +44,18 @@ function ExamContent() {
 
   const timer = useTimer(60 * 60, submitExam);
 
-  // Start timer on mount
-  useMemo(() => {
+  useEffect(() => {
+    setQuestions(generateExam());
     timer.start();
   }, []);
 
   const selectAnswer = (questionId: string, optionId: string) => {
     setAnswers(prev => ({ ...prev, [questionId]: optionId }));
   };
+
+  if (questions.length === 0) {
+    return <div className="p-4 pt-8 text-center text-muted">Preparando examen...</div>;
+  }
 
   if (finished) {
     const totalErrorPoints = questions.reduce((sum, q) => {
