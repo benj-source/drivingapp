@@ -7,6 +7,7 @@ export const signsQuestions: Question[] = [
     difficulty: 1,
     errorPoints: 3,
     text: 'Que significa un triangulo rojo invertido con fondo blanco (Kein Vortritt)?',
+    imageUrl: '/images/sign-3.02.jpg',
     options: [
       { id: 'a', text: 'Prohibido el paso' },
       { id: 'b', text: 'Ceda el paso a los vehiculos con prioridad' },
@@ -21,6 +22,7 @@ export const signsQuestions: Question[] = [
     difficulty: 1,
     errorPoints: 3,
     text: 'Que debes hacer ante una senal de Stop (octogono rojo)?',
+    imageUrl: '/images/sign-3.01.jpg',
     options: [
       { id: 'a', text: 'Reducir velocidad y continuar si no hay trafico' },
       { id: 'b', text: 'Detenerte completamente antes de la linea y ceder el paso' },
@@ -63,6 +65,7 @@ export const signsQuestions: Question[] = [
     difficulty: 1,
     errorPoints: 3,
     text: 'Un circulo rojo con fondo blanco y una barra horizontal blanca indica:',
+    imageUrl: '/images/sign-2.02.jpg',
     options: [
       { id: 'a', text: 'Prohibido estacionar' },
       { id: 'b', text: 'Prohibido el paso (Fahrverbot)' },
@@ -77,6 +80,7 @@ export const signsQuestions: Question[] = [
     difficulty: 1,
     errorPoints: 3,
     text: 'Que indica un circulo rojo con "50" sobre fondo blanco?',
+    imageUrl: '/images/sign-2.30.1.jpg',
     options: [
       { id: 'a', text: 'Velocidad minima de 50 km/h' },
       { id: 'b', text: 'Velocidad maxima de 50 km/h' },
@@ -91,6 +95,7 @@ export const signsQuestions: Question[] = [
     difficulty: 1,
     errorPoints: 2,
     text: 'Que indica el circulo azul con flechas blancas circulares?',
+    imageUrl: '/images/sign-2.41.1.jpg',
     options: [
       { id: 'a', text: 'Zona de estacionamiento circular' },
       { id: 'b', text: 'Rotonda (Kreisverkehr)' },
@@ -105,6 +110,7 @@ export const signsQuestions: Question[] = [
     difficulty: 1,
     errorPoints: 2,
     text: 'Un triangulo rojo con un signo de exclamacion (!) indica:',
+    imageUrl: '/images/sign-1.30.jpg',
     options: [
       { id: 'a', text: 'Zona escolar' },
       { id: 'b', text: 'Peligro general no especificado por otra senal' },
@@ -119,6 +125,7 @@ export const signsQuestions: Question[] = [
     difficulty: 1,
     errorPoints: 3,
     text: 'Un triangulo rojo con silueta de peaton en paso de cebra indica:',
+    imageUrl: '/images/sign-1.22.jpg',
     options: [
       { id: 'a', text: 'Zona peatonal, vehiculos prohibidos' },
       { id: 'b', text: 'Paso peatonal proximo. Reducir velocidad y estar preparado para detenerse' },
@@ -133,6 +140,7 @@ export const signsQuestions: Question[] = [
     difficulty: 1,
     errorPoints: 3,
     text: 'Un triangulo rojo con silueta de ninos indica:',
+    imageUrl: '/images/sign-1.23.jpg',
     options: [
       { id: 'a', text: 'Parque infantil, prohibido estacionar' },
       { id: 'b', text: 'Atencion ninos. Zona frecuentada por ninos, reducir velocidad significativamente' },
@@ -147,6 +155,7 @@ export const signsQuestions: Question[] = [
     difficulty: 2,
     errorPoints: 3,
     text: 'Un circulo rojo con dos coches simbolizando adelantamiento indica:',
+    imageUrl: '/images/sign-2.44.jpg',
     options: [
       { id: 'a', text: 'Carril de adelantamiento disponible' },
       { id: 'b', text: 'Prohibido adelantar (Ueberholverbot)' },
@@ -175,6 +184,7 @@ export const signsQuestions: Question[] = [
     difficulty: 2,
     errorPoints: 2,
     text: 'Que indica la senal circular con "30" y texto "Zone"?',
+    imageUrl: '/images/sign-2.59.1.jpg',
     options: [
       { id: 'a', text: 'Velocidad minima 30 km/h' },
       { id: 'b', text: 'Zona 30 (Tempo-30-Zone). Velocidad maxima 30 km/h en area residencial' },
@@ -189,6 +199,7 @@ export const signsQuestions: Question[] = [
     difficulty: 2,
     errorPoints: 3,
     text: 'Que indica la senal de Begegnungszone con "20"?',
+    imageUrl: '/images/sign-2.59.5.jpg',
     options: [
       { id: 'a', text: 'Zona de estacionamiento con 20 plazas' },
       { id: 'b', text: 'Zona de encuentro: maximo 20 km/h, peatones tienen prioridad absoluta' },
@@ -217,6 +228,7 @@ export const signsQuestions: Question[] = [
     difficulty: 2,
     errorPoints: 2,
     text: 'Un triangulo rojo con simbolo de tren y barreras indica:',
+    imageUrl: '/images/sign-1.15.jpg',
     options: [
       { id: 'a', text: 'Estacion de tren proxima' },
       { id: 'b', text: 'Paso a nivel con barreras (Bahnuebergang mit Schranken)' },
@@ -245,6 +257,7 @@ export const signsQuestions: Question[] = [
     difficulty: 1,
     errorPoints: 2,
     text: 'Un rectangulo azul con flecha blanca hacia arriba indica:',
+    imageUrl: '/images/sign-4.08.jpg',
     options: [
       { id: 'a', text: 'Direccion recomendada' },
       { id: 'b', text: 'Calle de un solo sentido (Einbahnstrasse)' },
@@ -301,6 +314,7 @@ export const signsQuestions: Question[] = [
     difficulty: 2,
     errorPoints: 2,
     text: 'Un triangulo rojo con simbolo de bajada (porcentaje descendente) indica:',
+    imageUrl: '/images/sign-1.10.jpg',
     options: [
       { id: 'a', text: 'Carretera en reparacion' },
       { id: 'b', text: 'Bajada peligrosa. Reducir velocidad, usar marcha baja' },
@@ -315,6 +329,7 @@ export const signsQuestions: Question[] = [
     difficulty: 2,
     errorPoints: 2,
     text: 'Un triangulo rojo con simbolo de vehiculo derrapando indica:',
+    imageUrl: '/images/sign-1.05.jpg',
     options: [
       { id: 'a', text: 'Carretera en mal estado' },
       { id: 'b', text: 'Calzada resbaladiza (Schleudergefahr). Riesgo de derrape, especialmente en mojado' },
@@ -329,6 +344,7 @@ export const signsQuestions: Question[] = [
     difficulty: 2,
     errorPoints: 2,
     text: 'Un triangulo rojo con simbolo de estrechamiento de calzada indica:',
+    imageUrl: '/images/sign-1.07.jpg',
     options: [
       { id: 'a', text: 'Puente estrecho adelante' },
       { id: 'b', text: 'Estrechamiento de calzada (Fahrbahnverengung). Reducir velocidad' },
@@ -343,6 +359,7 @@ export const signsQuestions: Question[] = [
     difficulty: 1,
     errorPoints: 2,
     text: 'Que indica un rectangulo azul con "P" blanca?',
+    imageUrl: '/images/sign-4.17.jpg',
     options: [
       { id: 'a', text: 'Policia proxima' },
       { id: 'b', text: 'Zona de estacionamiento permitido' },
@@ -371,6 +388,7 @@ export const signsQuestions: Question[] = [
     difficulty: 2,
     errorPoints: 2,
     text: 'Que indica un rectangulo azul con "P" y un reloj (Blaue Zone)?',
+    imageUrl: '/images/sign-4.18.jpg',
     options: [
       { id: 'a', text: 'Estacionamiento de pago por horas' },
       { id: 'b', text: 'Zona Azul: estacionamiento gratuito con disco horario (Parkscheibe), generalmente 1 hora' },
@@ -385,6 +403,7 @@ export const signsQuestions: Question[] = [
     difficulty: 1,
     errorPoints: 2,
     text: 'Un circulo azul con flecha blanca a la derecha indica:',
+    imageUrl: '/images/sign-2.32.jpg',
     options: [
       { id: 'a', text: 'Girar a la derecha recomendado' },
       { id: 'b', text: 'Direccion obligatoria a la derecha (Vorgeschriebene Fahrtrichtung)' },
@@ -399,6 +418,7 @@ export const signsQuestions: Question[] = [
     difficulty: 2,
     errorPoints: 2,
     text: 'Un circulo blanco con borde rojo y "3.5t" indica:',
+    imageUrl: '/images/sign-2.16.jpg',
     options: [
       { id: 'a', text: 'Limite de peso por eje' },
       { id: 'b', text: 'Prohibido el paso a vehiculos de mas de 3.5 toneladas de peso total' },
@@ -413,6 +433,7 @@ export const signsQuestions: Question[] = [
     difficulty: 1,
     errorPoints: 2,
     text: 'Que indica un triangulo rojo con simbolo de obra (trabajador con pala)?',
+    imageUrl: '/images/sign-1.14.jpg',
     options: [
       { id: 'a', text: 'Deposito de materiales' },
       { id: 'b', text: 'Obras en la via (Baustelle). Reducir velocidad y seguir indicaciones del personal' },
@@ -441,6 +462,7 @@ export const signsQuestions: Question[] = [
     difficulty: 2,
     errorPoints: 2,
     text: 'La senal cuadrada azul con simbolo de tunel indica:',
+    imageUrl: '/images/sign-4.07.jpg',
     options: [
       { id: 'a', text: 'Estacionamiento subterraneo' },
       { id: 'b', text: 'Tunel proximo. Encender luces bajas obligatoriamente, prohibido retroceder y girar' },
@@ -455,6 +477,7 @@ export const signsQuestions: Question[] = [
     difficulty: 1,
     errorPoints: 2,
     text: 'Un circulo rojo vacio con fondo blanco (sin ningun simbolo) indica:',
+    imageUrl: '/images/sign-2.01.jpg',
     options: [
       { id: 'a', text: 'Fin de todas las prohibiciones' },
       { id: 'b', text: 'Prohibido el trafico en ambas direcciones (Allgemeines Fahrverbot)' },
@@ -469,6 +492,7 @@ export const signsQuestions: Question[] = [
     difficulty: 2,
     errorPoints: 2,
     text: 'Un triangulo rojo con curva en S indica:',
+    imageUrl: '/images/sign-1.03.jpg',
     options: [
       { id: 'a', text: 'Carretera sinuosa adelante' },
       { id: 'b', text: 'Curvas peligrosas (Doppelkurve). Reducir velocidad, no adelantar sin visibilidad' },
@@ -483,6 +507,7 @@ export const signsQuestions: Question[] = [
     difficulty: 2,
     errorPoints: 2,
     text: 'Un triangulo rojo con subida pronunciada indica:',
+    imageUrl: '/images/sign-1.11.jpg',
     options: [
       { id: 'a', text: 'Pendiente ascendente. Mantener velocidad. En cruces dificiles de montana, el que baja debe ceder' },
       { id: 'b', text: 'Solo para vehiculos con traccion en las 4 ruedas' },
@@ -525,6 +550,7 @@ export const signsQuestions: Question[] = [
     difficulty: 2,
     errorPoints: 2,
     text: 'En una Zona 30 (Tempo-30-Zone), que regla de prioridad aplica normalmente?',
+    imageUrl: '/images/sign-2.59.1.jpg',
     options: [
       { id: 'a', text: 'Los peatones siempre tienen prioridad' },
       { id: 'b', text: 'La prioridad por la derecha (Rechtsvortritt) si no hay otras senales' },
@@ -609,6 +635,7 @@ export const signsQuestions: Question[] = [
     difficulty: 2,
     errorPoints: 2,
     text: 'Que indica una senal rectangular azul con flecha roja y flecha negra opuesta (1.26)?',
+    imageUrl: '/images/sign-1.26.jpg',
     options: [
       { id: 'a', text: 'Calle de un solo sentido' },
       { id: 'b', text: 'Fin de calle de un solo sentido / trafico en ambos sentidos (Gegenverkehr)' },
@@ -665,6 +692,7 @@ export const signsQuestions: Question[] = [
     difficulty: 1,
     errorPoints: 2,
     text: 'Que indica el circulo rojo con numero "80"?',
+    imageUrl: '/images/sign-2.30.jpg',
     options: [
       { id: 'a', text: 'Velocidad minima 80 km/h' },
       { id: 'b', text: 'Velocidad maxima 80 km/h' },
@@ -679,6 +707,7 @@ export const signsQuestions: Question[] = [
     difficulty: 1,
     errorPoints: 2,
     text: 'Que indica el circulo rojo con numero "120"?',
+    imageUrl: '/images/sign-2.30.jpg',
     options: [
       { id: 'a', text: 'Velocidad maxima 120 km/h' },
       { id: 'b', text: 'Distancia de visibilidad 120 m' },

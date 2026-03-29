@@ -1,6 +1,7 @@
 'use client';
 
 import { useParams } from 'next/navigation';
+import Image from 'next/image';
 import Link from 'next/link';
 import { useState, useCallback } from 'react';
 import { allDecks } from '@/data/flashcards';
@@ -87,7 +88,18 @@ export default function FlashcardSessionPage() {
             <span className="text-xs uppercase tracking-wider text-muted mb-3">
               {card.front.type === 'sign' ? 'Señal' : card.front.type === 'situation' ? 'Situación' : 'Regla'}
             </span>
-            <p className="text-lg font-medium leading-relaxed">{card.front.text}</p>
+            {card.front.imageUrl && (
+              <div className="mb-4 flex justify-center">
+                <Image
+                  src={card.front.imageUrl}
+                  alt={card.front.text}
+                  width={160}
+                  height={160}
+                  className="object-contain rounded-lg"
+                />
+              </div>
+            )}
+            <p className="text-base font-medium leading-relaxed">{card.front.text}</p>
             <p className="text-xs text-muted mt-4">Toca para voltear</p>
           </div>
 

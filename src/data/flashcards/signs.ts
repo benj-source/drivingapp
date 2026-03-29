@@ -10,6 +10,7 @@ export const signsDeck: FlashcardDeck = {
       front: {
         type: 'sign',
         text: 'Triangulo rojo invertido con borde rojo y fondo blanco.',
+        imageUrl: '/images/sign-3.02.jpg',
       },
       back: {
         rule: 'Senal de "Ceda el paso" (Ceder la prioridad). Debes reducir la velocidad y ceder el paso a los vehiculos con prioridad.',
@@ -22,6 +23,7 @@ export const signsDeck: FlashcardDeck = {
       front: {
         type: 'sign',
         text: 'Octogono rojo con letras blancas "STOP".',
+        imageUrl: '/images/sign-3.01.jpg',
       },
       back: {
         rule: 'Senal de Stop. Debes detenerte completamente antes de la linea de detencion y ceder el paso a todos los vehiculos de la carretera prioritaria.',
@@ -34,6 +36,7 @@ export const signsDeck: FlashcardDeck = {
       front: {
         type: 'sign',
         text: 'Rombo amarillo con borde blanco.',
+        imageUrl: '/images/sign-3.05.jpg',
       },
       back: {
         rule: 'Senal de carretera principal (Hauptstrasse). Indica que tienes prioridad en las intersecciones.',
@@ -46,6 +49,7 @@ export const signsDeck: FlashcardDeck = {
       front: {
         type: 'sign',
         text: 'Rombo amarillo con borde blanco tachado por una linea negra diagonal.',
+        imageUrl: '/images/sign-3.06.jpg',
       },
       back: {
         rule: 'Fin de carretera principal. A partir de aqui, se aplica la prioridad por la derecha (Rechtsvortritt) si no hay otras senales.',
@@ -58,6 +62,7 @@ export const signsDeck: FlashcardDeck = {
       front: {
         type: 'sign',
         text: 'Circulo rojo con fondo blanco y una barra horizontal blanca en el centro.',
+        imageUrl: '/images/sign-2.02.jpg',
       },
       back: {
         rule: 'Prohibido el paso (Fahrverbot). No se puede entrar en esta via con ningun vehiculo.',
@@ -70,6 +75,7 @@ export const signsDeck: FlashcardDeck = {
       front: {
         type: 'sign',
         text: 'Circulo rojo con fondo blanco, vacio (sin simbolo interior).',
+        imageUrl: '/images/sign-2.01.jpg',
       },
       back: {
         rule: 'Prohibido el trafico en ambas direcciones. Ningun vehiculo puede circular por esta via.',
@@ -82,6 +88,7 @@ export const signsDeck: FlashcardDeck = {
       front: {
         type: 'sign',
         text: 'Circulo rojo con numero "50" en el centro sobre fondo blanco.',
+        imageUrl: '/images/sign-2.30.1.jpg',
       },
       back: {
         rule: 'Limite de velocidad maxima: 50 km/h. Limite general en areas urbanizadas (Innerorts).',
@@ -94,6 +101,7 @@ export const signsDeck: FlashcardDeck = {
       front: {
         type: 'sign',
         text: 'Circulo rojo con numero "80" en el centro sobre fondo blanco.',
+        imageUrl: '/images/sign-2.30.jpg',
       },
       back: {
         rule: 'Limite de velocidad maxima: 80 km/h. Limite general fuera de areas urbanizadas.',
@@ -106,6 +114,7 @@ export const signsDeck: FlashcardDeck = {
       front: {
         type: 'sign',
         text: 'Circulo rojo con numero "120" en el centro sobre fondo blanco.',
+        imageUrl: '/images/sign-2.30.jpg',
       },
       back: {
         rule: 'Limite de velocidad maxima: 120 km/h. Limite general en autopistas (Autobahn).',
@@ -118,6 +127,7 @@ export const signsDeck: FlashcardDeck = {
       front: {
         type: 'sign',
         text: 'Circulo rojo con dos coches (negro y rojo) uno al lado del otro, simbolizando adelantamiento.',
+        imageUrl: '/images/sign-2.44.jpg',
       },
       back: {
         rule: 'Prohibido adelantar. No se puede adelantar a vehiculos motorizados, excepto vehiculos que no superen 30 km/h.',
@@ -130,6 +140,7 @@ export const signsDeck: FlashcardDeck = {
       front: {
         type: 'sign',
         text: 'Circulo azul con flechas blancas circulares (tres flechas en sentido antihorario).',
+        imageUrl: '/images/sign-2.41.1.jpg',
       },
       back: {
         rule: 'Rotonda (Kreisverkehr). Circular en sentido contrario a las agujas del reloj. Dar prioridad a vehiculos dentro de la rotonda.',
@@ -142,6 +153,7 @@ export const signsDeck: FlashcardDeck = {
       front: {
         type: 'sign',
         text: 'Triangulo rojo con un signo de exclamacion (!) en el centro.',
+        imageUrl: '/images/sign-1.30.jpg',
       },
       back: {
         rule: 'Peligro general. Advierte de un peligro no especificado por otra senal. Reducir velocidad y extremar precaucion.',
@@ -154,6 +166,7 @@ export const signsDeck: FlashcardDeck = {
       front: {
         type: 'sign',
         text: 'Triangulo rojo con curva en S.',
+        imageUrl: '/images/sign-1.03.jpg',
       },
       back: {
         rule: 'Curvas peligrosas. Reducir velocidad y adaptar la conduccion. No adelantar en curvas sin visibilidad.',
@@ -166,6 +179,7 @@ export const signsDeck: FlashcardDeck = {
       front: {
         type: 'sign',
         text: 'Triangulo rojo con silueta de peaton en paso de cebra.',
+        imageUrl: '/images/sign-1.22.jpg',
       },
       back: {
         rule: 'Paso peatonal (Fussgaengerstreifen). Reducir velocidad, estar preparado para detenerse. Peatones tienen prioridad en el paso.',
@@ -178,6 +192,7 @@ export const signsDeck: FlashcardDeck = {
       front: {
         type: 'sign',
         text: 'Triangulo rojo con silueta de ninos.',
+        imageUrl: '/images/sign-1.23.jpg',
       },
       back: {
         rule: 'Atencion ninos. Zona frecuentada por ninos (escuelas, parques). Reducir velocidad significativamente.',
@@ -190,6 +205,7 @@ export const signsDeck: FlashcardDeck = {
       front: {
         type: 'sign',
         text: 'Triangulo rojo con simbolo de un tren y barreras.',
+        imageUrl: '/images/sign-1.15.jpg',
       },
       back: {
         rule: 'Paso a nivel con barreras. Detenerse cuando las barreras esten bajandose o bajadas.',
@@ -202,6 +218,7 @@ export const signsDeck: FlashcardDeck = {
       front: {
         type: 'sign',
         text: 'Triangulo rojo con simbolo de un tren sin barreras.',
+        imageUrl: '/images/sign-1.16.jpg',
       },
       back: {
         rule: 'Paso a nivel sin barreras. Extremar precaucion, mirar a ambos lados. Detenerse si se acerca un tren. Prohibido adelantar justo antes.',
@@ -238,6 +255,7 @@ export const signsDeck: FlashcardDeck = {
       front: {
         type: 'sign',
         text: 'Rectangulo azul con la palabra "Autobahn" y simbolo de autopista (puente con coche).',
+        imageUrl: '/images/sign-4.02.jpg',
       },
       back: {
         rule: 'Inicio de autopista (Autobahn). Limite de velocidad: 120 km/h. Solo vehiculos que puedan alcanzar 80 km/h. Prohibido detenerse, retroceder, girar.',
@@ -250,6 +268,7 @@ export const signsDeck: FlashcardDeck = {
       front: {
         type: 'sign',
         text: 'Rectangulo verde con simbolo de autopista.',
+        imageUrl: '/images/sign-4.04.jpg',
       },
       back: {
         rule: 'Autostrasse (carretera de doble calzada). Limite: 100 km/h. Reglas similares a autopista pero con velocidad inferior.',
@@ -262,6 +281,7 @@ export const signsDeck: FlashcardDeck = {
       front: {
         type: 'sign',
         text: 'Circulo rojo con numero "30" y texto "Zone" debajo.',
+        imageUrl: '/images/sign-2.59.1.jpg',
       },
       back: {
         rule: 'Zona 30 (Tempo-30-Zone). Velocidad maxima 30 km/h. Generalmente en areas residenciales. Prioridad por la derecha aplica si no hay otras senales.',
@@ -274,6 +294,7 @@ export const signsDeck: FlashcardDeck = {
       front: {
         type: 'sign',
         text: 'Rectangulo azul con "Begegnungszone" y numero "20".',
+        imageUrl: '/images/sign-2.59.5.jpg',
       },
       back: {
         rule: 'Zona de encuentro (Begegnungszone). Velocidad maxima 20 km/h. Peatones tienen prioridad absoluta sobre vehiculos. Pueden usar toda la calzada.',
@@ -286,6 +307,7 @@ export const signsDeck: FlashcardDeck = {
       front: {
         type: 'sign',
         text: 'Rectangulo azul con letra "P" blanca.',
+        imageUrl: '/images/sign-4.17.jpg',
       },
       back: {
         rule: 'Zona de estacionamiento permitido. Respetar las restricciones de tiempo indicadas en senales adicionales.',
@@ -322,6 +344,7 @@ export const signsDeck: FlashcardDeck = {
       front: {
         type: 'sign',
         text: 'Triangulo rojo con simbolo de pendiente (porcentaje) descendente.',
+        imageUrl: '/images/sign-1.10.jpg',
       },
       back: {
         rule: 'Bajada peligrosa. Reducir velocidad, usar marcha baja. No sobrecargar los frenos. En carreteras de montana, conducir de manera que los frenos no se usen en exceso.',
@@ -334,6 +357,7 @@ export const signsDeck: FlashcardDeck = {
       front: {
         type: 'sign',
         text: 'Triangulo rojo con simbolo de pendiente ascendente.',
+        imageUrl: '/images/sign-1.11.jpg',
       },
       back: {
         rule: 'Subida pronunciada. Mantener velocidad adecuada. En cruces dificiles en carreteras de montana, el vehiculo que baja debe detenerse o retroceder.',
@@ -346,6 +370,7 @@ export const signsDeck: FlashcardDeck = {
       front: {
         type: 'sign',
         text: 'Rectangulo azul con una flecha blanca hacia arriba.',
+        imageUrl: '/images/sign-4.08.jpg',
       },
       back: {
         rule: 'Calle de un solo sentido. Solo se puede circular en la direccion indicada. Esta prohibido retroceder, excepto al estacionar o acoplar remolques.',
@@ -358,6 +383,7 @@ export const signsDeck: FlashcardDeck = {
       front: {
         type: 'sign',
         text: 'Senal de trafico contraria (1.26): rectangulo blanco con flecha roja y flecha negra opuesta.',
+        imageUrl: '/images/sign-1.26.jpg',
       },
       back: {
         rule: 'Fin de calle de un solo sentido / trafico en ambos sentidos. A partir de aqui, hay trafico en ambas direcciones.',
@@ -370,6 +396,7 @@ export const signsDeck: FlashcardDeck = {
       front: {
         type: 'sign',
         text: 'Triangulo rojo con simbolo de obra (trabajador con pala).',
+        imageUrl: '/images/sign-1.14.jpg',
       },
       back: {
         rule: 'Obras en la via. Reducir velocidad, estar atento a trabajadores y maquinaria. Seguir indicaciones del personal de obras.',
@@ -382,6 +409,7 @@ export const signsDeck: FlashcardDeck = {
       front: {
         type: 'sign',
         text: 'Circulo azul con flecha blanca apuntando a la derecha.',
+        imageUrl: '/images/sign-2.32.jpg',
       },
       back: {
         rule: 'Direccion obligatoria a la derecha. Los vehiculos deben girar o circular en la direccion indicada.',
@@ -394,6 +422,7 @@ export const signsDeck: FlashcardDeck = {
       front: {
         type: 'sign',
         text: 'Circulo blanco con borde rojo y numero "3.5t".',
+        imageUrl: '/images/sign-2.16.jpg',
       },
       back: {
         rule: 'Prohibido el paso a vehiculos de mas de 3.5 toneladas. Se aplica al peso total del vehiculo.',
@@ -406,6 +435,7 @@ export const signsDeck: FlashcardDeck = {
       front: {
         type: 'sign',
         text: 'Triangulo rojo con simbolo de vehiculo derrapando.',
+        imageUrl: '/images/sign-1.05.jpg',
       },
       back: {
         rule: 'Calzada resbaladiza. Riesgo de derrape especialmente en mojado. Reducir velocidad y evitar maniobras bruscas.',
@@ -418,6 +448,7 @@ export const signsDeck: FlashcardDeck = {
       front: {
         type: 'sign',
         text: 'Triangulo rojo con simbolo de estrechamiento de calzada.',
+        imageUrl: '/images/sign-1.07.jpg',
       },
       back: {
         rule: 'Estrechamiento de calzada. Reducir velocidad. Si el cruce no es posible, reglas de prioridad especiales aplican (camiones antes que ligeros).',
@@ -466,6 +497,7 @@ export const signsDeck: FlashcardDeck = {
       front: {
         type: 'sign',
         text: 'Rectangulo azul con "P" y un reloj indicando horarios.',
+        imageUrl: '/images/sign-4.18.jpg',
       },
       back: {
         rule: 'Zona Azul (Blaue Zone). Estacionamiento gratuito con disco de estacionamiento (Parkscheibe). Tiempo maximo generalmente 1 hora durante dias laborables.',
@@ -478,6 +510,7 @@ export const signsDeck: FlashcardDeck = {
       front: {
         type: 'sign',
         text: 'Senal cuadrada con fondo azul y simbolo blanco de tunel.',
+        imageUrl: '/images/sign-4.07.jpg',
       },
       back: {
         rule: 'Tunel. Encender luces bajas obligatoriamente incluso si esta iluminado. Prohibido retroceder y girar. Detenerse solo en emergencias.',
